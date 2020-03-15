@@ -1,36 +1,141 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>About Us</title>
-</head>
-<body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.Navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.Navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.Navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.line {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.divclass:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  padding: 14px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left:30px;
+}
+.fa-github {
+  background: #000000;
+  color: white;
+  margin-left:160px;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .line {
+    width: 100%;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+</style>
+ 
+  </head>
+  <body>
+      <div class="Navbar">
+        <a class="navlinks" href="index.html">Home</a>
+        <a class="navlinks" href="Nutrition.html">Nutrition</a>
+        <a Class="navlinks" href="ContactUS.html">ContactUS</a>
+        <a class="active navlinks" href="AboutUS.html">AboutUs</a>
+      </div>
     <div class="divclass">
-        <div class="line">
-            <h4>Venkat Kambhampati</h4>
-            <img class="aboutimage" src="img/karan.png" />
-            <p class="venky">
-                Hello this is Venkat!
-            </p>
-            <hr />
-        </div>
-        <div class="line">
-            <h4>Mohana Aditya Karampudi</h4>
-            <img class="aboutimage" src="img/Jouce.PNG" />
-            <p class="venky">
-               Hello this is mohanadtiya
-            </p>
-            <hr />
-        </div>
-        <div class="line">
-            <h4>Harika Yadav Gillela</h4>
-            <img class="aboutimage" src="img/ishaan.jpeg" />
-            <p class="para">
-               Hello this is Harika
-            </p>
-            <hr />
-            <hr />
-        </div>
+      <div class="line">
+        <h2 align="center" >Venkat Kambhampati</h2>
+        <img class="aboutimage" src="images/vijay.jpg" alt="Image" height="200" width="140" />
+        <p align="center" class="para">
+          I'm Venkat Kambhampati, persuing masters in Business analytics and
+          Information systems .My contribution to this
+          assignment has been with html and css code in About page and designing data model for the website.
+        </p>
+       <a href="https://github.com/vvrkrishna" class="fa fa-github" target="_blank"></a>
+       <a href="https://www.linkedin.com/in/vijay-krishna-kambhampati-755481123/" class="fa fa-linkedin" target="_blank"></a>
+       <p align="center" class="para">
+           Email:- kambhampati@mail.usf.edu 
+        </p>
+      </div>
+      <div class="line">
+        <h2 align="center"> Harika Yadav Gillela</h2>
+        <img class="aboutimage" src="images/harika.jpg" alt="Image" height="200" width="140" />
+        <p align="center" class="para">
+          Write some description about yourself and contribution to the project.............!
+        </p>
+      <a href="https://github.com/hp1318" class="fa fa-github" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/harikagillela" class="fa fa-linkedin" target="_blank"></a>
+      <p align="center" class="para">
+           Email:- hgillela@mail.usf.edu 
+        </p>
+      </div>
+      <div class="line">
+        <h2 align="center"> Mohan Aditya Karampudi</h2>
+        <img class="aboutimage" src="images/aditya.jpg" alt="Image" height="200" width="140" />
+        <p align="center" class="para">
+           Write some description about yourself and contribution to the project.............!
+        </p>
+       <a href="https://github.com/aditya-karampudi" class="fa fa-github" target="_blank"></a>
+       <a href="https://www.linkedin.com/in/mohanaditya-karampudi" class="fa fa-linkedin" target="_blank"></a>
+       <p align="center" class="para">
+           Email:- mohanaditya@mail.usf.edu 
+        </p>
+      </div>
     </div>
-</body>
+<p align="center">We are Group 13 of Distributed Information System Course of Fall 2019 (ISM 6225) at University of South Florida. We are pursuing MS in Business Analytics & Information Systems from Muma College of Business. This assignment is intended to help us practice html, css and optionally, JavaScript to get good design results. The link to the project can be found at the end of this page.We welcome any kind of feedback or queries,information to contact us has been furnished below</p>
+  </body>
 </html>
+
